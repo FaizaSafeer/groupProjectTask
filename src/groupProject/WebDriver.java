@@ -5,9 +5,9 @@ public interface WebDriver {
     void close();
         void getTitle();
 }
-interface TakesScreenshots{
+   interface TakesScreenshots{
     void getScreenshot();
-interface RemoteWebDriver extends WebDriver,TakesScreenshots{
+   interface RemoteWebDriver extends WebDriver,TakesScreenshots{
    void navigate();
 }
 

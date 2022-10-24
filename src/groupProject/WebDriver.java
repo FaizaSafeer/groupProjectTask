@@ -3,7 +3,7 @@ package groupProject;
 public interface WebDriver {
     void open();
     void close();
-    void getTitle();
+        void getTitle();
 }
 interface TakesScreenshots{
     void getScreenshot();
